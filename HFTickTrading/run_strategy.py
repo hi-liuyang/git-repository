@@ -33,7 +33,7 @@ class CApp:
             strategy.initialTradingContract(tradingContract)
             tradingContract.exchangeInstrumentStatus = '2'
 
-            handler = CMdHandler(context)
+            handler = CHFMdHandler(context)
             handler.start_consuming()
 
 
